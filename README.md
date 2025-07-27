@@ -69,7 +69,7 @@ if __name__ == "__main__":
     for title, prompt in chapters:
         generate_chapter(generator, prompt, title)``
 
-### 🧠 Jalankan Project
+### 🧠 Tahap 2 – Jalankan Project
 `python generate_novel.py`
 ### 📁 Hasil
 Output akan muncul di dalam folder novel dengan format:
