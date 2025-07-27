@@ -77,7 +77,7 @@ Output akan muncul di dalam folder novel dengan format:
 ├── bab_1_-_sebelum_segalanya_dimulai.txt
 ├── bab_2_-_apa_aku_boleh_menyukaimu.txt
 ...
-
+##### ![Hasil file yang berhasil dibuat](Images/hasil.PNG)
 -----
 
 ##### Eksperimen ini menghasilkan beberapa bab novel dalam format .txt, namun hasilnya tidak sesuai ekspektasi, dengan beberapa isu utama:
@@ -85,8 +85,7 @@ Output akan muncul di dalam folder novel dengan format:
 💬 Output terlalu pendek
 
 ##### Contoh hasil yang tidak sesuai:
-##### ![Hasil file yang berhasil dibuat](Images/hasil.PNG)
-##### ![Isi pada file](Images/hasil 1.PNG)
-##### ![Isi pada file lainnya](Images/hasil 2.PNG)
+![Isi File](path/gambar.png)
+
 
 ##### Aku menyadari bahwa eksperimen ini belum optimal. Masih dalam proses eksperimen untuk mencari jalan paling benar.
