@@ -85,7 +85,7 @@ Output akan muncul di dalam folder novel dengan format:
 💬 Output terlalu pendek
 
 ##### Contoh hasil yang tidak sesuai:
-![Isi File](path/gambar.png)
+![Isi File](Images/hasil 1.PNG)
 
 
 ##### Aku menyadari bahwa eksperimen ini belum optimal. Masih dalam proses eksperimen untuk mencari jalan paling benar.
