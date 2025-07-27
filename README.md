@@ -72,9 +72,8 @@ if __name__ == "__main__":
 ### 🧠 Jalankan Project
 `python generate_novel.py`
 ### 📁 Hasil
-Output akan muncul di dalam folder novel/ dengan format:
+Output akan muncul di dalam folder novel dengan format:
 
-novel/
 ├── bab_1_-_sebelum_segalanya_dimulai.txt
 ├── bab_2_-_apa_aku_boleh_menyukaimu.txt
 ...
