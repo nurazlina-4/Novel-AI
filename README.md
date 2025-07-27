@@ -3,7 +3,7 @@ Proyek ini adalah eksplorasi menggabungkan kreativitas dan teknologi:
 menulis novel pendek dengan bantuan model AI seperti DeepSeek LLM atau SuperGrowth, dijalankan menggunakan Python.
 ### 🔧 Tahap 1 – Persiapan Awal
 1. **Setup Environment**:
-``conda create -n novel-ai python=3.10 -y && conda activate novel-ai
+conda create -n novel-ai python=3.10 -y && conda activate novel-ai
 ##### Kalau muncul ini:
 ##### Proceed ([y]/n)?
 ##### 👉 Kamu cukup ketik:
@@ -11,15 +11,15 @@ menulis novel pendek dengan bantuan model AI seperti DeepSeek LLM atau SuperGrow
 ##### lalu tekan Enter
 ##### Tunggu sampai selesai (akan download dan setup dependensi).
 ##### Lanjutkan:
-``conda activate novel-ai
+conda activate novel-ai
 ##### Kalau sudah aktif, lanjutkan ke langkah berikutnya.
 ### ✅ 2. Install Library yang Dibutuhkan
 ##### Kita butuh transformers, torch, dan accelerate:
-``pip install torch transformers accelerate
+pip install torch transformers accelerate
 ##### Ini akan meng-install semua tools utama untuk menjalankan model AI text generation.
 ##### Tunggu sampai selesai.
 ### Ini code yang aku simpan di vscode, generate_novel.py
-``from huggingface_hub import login
+from huggingface_hub import login
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import os
 import re
@@ -74,10 +74,10 @@ if __name__ == "__main__":
 
 ### 🧠 Jalankan Project
 ##### Buka cmd
-``python generate_novel.py
+python generate_novel.py
 ### 📁 Hasil
 ##### Output akan muncul di dalam folder novel/ dengan format:
-``novel/
+novel/
 ├── bab_1_-_sebelum_segalanya_dimulai.txt
 ├── bab_2_-_apa_aku_boleh_menyukaimu.txt
 ...
