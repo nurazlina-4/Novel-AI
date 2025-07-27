@@ -1,6 +1,6 @@
 # Novel-AI
 Proyek ini adalah eksplorasi menggabungkan kreativitas dan teknologi:
-menulis novel pendek dengan bantuan model AI seperti DeepSeek LLM atau SuperGrowth, dijalankan menggunakan Python.
+menulis novel pendek dengan bantuan model AI dan dijalankan menggunakan Python.
 -----
 
 ### 🔧 Tahap 1 – Persiapan Awal
@@ -73,10 +73,11 @@ if __name__ == "__main__":
 `python generate_novel.py`
 ### 📁 Hasil
 Output akan muncul di dalam folder novel/ dengan format:
-``novel/
+
+novel/
 ├── bab_1_-_sebelum_segalanya_dimulai.txt
 ├── bab_2_-_apa_aku_boleh_menyukaimu.txt
-...```
+...
 
 -----
 
