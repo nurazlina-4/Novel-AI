@@ -86,7 +86,7 @@ Output akan muncul di dalam folder novel dengan format:
 
 ##### Contoh hasil yang tidak sesuai:
 ##### ![Hasil file yang berhasil dibuat](Images/hasil.PNG)
-##### ![Isi pada file(Images/hasil 1.PNG)
+##### ![Isi pada file](Images/hasil 1.PNG)
 ##### ![Isi pada file lainnya](Images/hasil 2.PNG)
 
 ##### Aku menyadari bahwa eksperimen ini belum optimal. Masih dalam proses eksperimen untuk mencari jalan paling benar.
