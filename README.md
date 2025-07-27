@@ -27,7 +27,7 @@ Tunggu sampai selesai (akan download dan setup dependensi).
 ##### Tunggu sampai selesai.
 ### Ini code yang aku simpan di vscode, generate_novel.py
 
-`from huggingface_hub import login
+``from huggingface_hub import login
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import os
 import re
@@ -67,20 +67,26 @@ if __name__ == "__main__":
         ("Bab 7 - Aku, yang Akhirnya Menerima", "Ceritakan bagaimana Liana akhirnya memilih menerima kenyataan. Ia tidak ingin menggantungkan hidupnya pada ekspektasi. Ending terbuka: bukan tentang bersama siapa, tapi tentang menemukan dirinya sendiri.")
     ]
     for title, prompt in chapters:
-        generate_chapter(generator, prompt, title)`
+        generate_chapter(generator, prompt, title)``
 
 ### 🧠 Jalankan Project
 `python generate_novel.py`
 ### 📁 Hasil
-##### Output akan muncul di dalam folder novel/ dengan format:
-novel/
+Output akan muncul di dalam folder novel/ dengan format:
+``novel/
 ├── bab_1_-_sebelum_segalanya_dimulai.txt
 ├── bab_2_-_apa_aku_boleh_menyukaimu.txt
-...
+...```
+
 -----
+
 ##### Eksperimen ini menghasilkan beberapa bab novel dalam format .txt, namun hasilnya tidak sesuai ekspektasi, dengan beberapa isu utama:
-🔁 Isi cerita tidak jelas 
+🔁 Isi cerita tidak jelas dan tidak sesuai
 💬 Output terlalu pendek
+
 ##### Contoh hasil yang tidak sesuai:
 ##### ![Hasil file yang berhasil dibuat](Images/hasil.PNG)
-##### Aku menyadari bahwa eksperimen ini belum optimal. masih dalam proses eksperimen untuk mencari jalan paling benar.
+##### ![Hasil file yang berhasil dibuat](Images/hasil 1.PNG)
+##### ![Hasil file yang berhasil dibuat](Images/hasil 2.PNG)
+
+##### Aku menyadari bahwa eksperimen ini belum optimal. Masih dalam proses eksperimen untuk mencari jalan paling benar.
