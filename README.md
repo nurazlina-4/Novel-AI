@@ -89,4 +89,4 @@ Output akan muncul di dalam folder novel dengan format:
 ![Isi File](Images/hasil1.PNG)
 
 
-##### Aku menyadari bahwa eksperimen ini belum optimal. Masih dalam proses eksperimen untuk mencari jalan paling benar.
+##### Aku menyadari bahwa eksperimen ini belum optimal. Masih dalam proses eksperimen perbaikan lebih lanjut untuk mencari jalan paling benar.
